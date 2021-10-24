@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="stylesheet" href="./style/style.css">
+    <title> flexbox</title>
+    <style>
+    body{
+        margin: 0;
+
+    }
+    .container{
+        width: 100 vw;
+        height:100vh;
+        font-family: 'Courier New', Courier, monospace ;
+        font-weight: bold;
+        font-size: 20px;
+        display:  grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 50px  50px 1fr 50px ;
+
+        gap: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        
+        
+
+
+    }
+    .container div {
+        padding: 10px;
+        border: 5px solid black;
+       
+
+    }
+
+    .bild {
+        grid-column-start:1;
+        grid-column-end: 2;
+    }
+    .länklista{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .rubrik{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .brödtext{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .knapp{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+   
+    .foto{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: span 3;
+        
+    }
+    
+    
+
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="container"> 
+        <div class = "bild">Bild </div>
+        <div class = "länklista"> länklista </div>
+        <div class= "foto"> Foto</div>
+        <div class= "rubrik">rubrik </div>
+        <div class= "brödtext"> brödtext</div>
+        <div class= "knapp"> knapp </div>
+        
+
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+.flexbox-container{
+
+}
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 4px solid black;
+    background-color: white;
+}
+
+.bild{
+    background-color: yellow;
+}
+.länklista{
+    background-color: green;
+}
+.rubrik{
+    background-color: blue;
+}
+.brödtext{
+    background-color: cornflowerblue;
+}
+.foto{
+  background-color: yellow; 
+  justify-content: center;   
+}
+
+.knapp{
+    background-color: violet;
+}
