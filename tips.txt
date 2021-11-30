@@ -1,0 +1,47 @@
+¨1 --------------
+Download element with id (getElementById)
+CSS properties
+Add event listeners to button
+
+
+2 --------------
+Download elements with id
+Add event listeners to button
+Generate random numbers (Math.random)
+
+
+3 --------------
+Date classes
+alert()
+
+
+4 --------------
+Number.isNaN
+
+
+
+5 --------------
+loops
+array.push
+
+
+6 --------------
+loops
+get element with id
+
+
+7 --------------
+string.split
+
+
+8 --------------
+CSS properties
+setTimeout ()
+
+
+9 --------------
+Date classes
+
+
+10 --------------
+arithmetic
